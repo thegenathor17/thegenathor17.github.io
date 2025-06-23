@@ -1,2 +1,2 @@
-# thegenathor17.github.io
-A little blog for y'all
+# A little blog
+you know, i wanna have an online blog :D  
