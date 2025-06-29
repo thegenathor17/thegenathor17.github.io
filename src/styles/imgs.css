@@ -1,0 +1,18 @@
+#upbarExample{
+    width: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vh;
+}
+#sidebarExample{
+    height: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vh;
+}
+#profilePhoto{
+    display: block;
+    border-radius: 2vh;
+}

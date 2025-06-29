@@ -1,0 +1,52 @@
+body, html{
+    margin: 0px;
+    height: 100%;
+}
+.layout{
+    display: grid;
+    grid-template-areas: 
+    "sidebar upbar"
+    "sidebar content";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr;
+    height: 100vh;
+}
+/*Up bar*/
+.upbar{
+    grid-area: upbar;
+    background: #15151f;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    margin-left: -30vh;
+}
+#title{
+    margin-left: 7.5vh;
+}
+/*Side bar*/
+.sidebar{
+    grid-area: sidebar;
+    background: #15151f;
+    color: white;
+    padding: 1rem;
+    margin-top: 6.6vh;
+}
+/*Content*/
+.content{
+    grid-area: content;
+    background-color: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.articleBody{
+    width: 150vh;
+    height: auto;
+    background-color: #2a2a3d ;
+    padding: 0 2.5rem;
+    border-radius: 2vh;
+    border-color: #000;
+    box-shadow: 0px .5vh 1vh 0px #000;
+}
