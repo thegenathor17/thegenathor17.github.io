@@ -1,0 +1,48 @@
+.selectionGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20vh, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.card{
+    background-color: #333366;
+    border-radius: 2vh;
+    box-shadow: 0 1vh 2vh rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1vh 2vh rgba(0,0,0,1);
+}
+.card:active{
+    animation: pressPop .2s ease-in-out;
+}
+@keyframes pressPop{
+    0%{
+        transform: scale(1);
+        box-shadow: 0 1vh 2vh rgba(0,0,0,.1);
+    }
+    50%{
+        transform: scale(.9);
+        box-shadow: 0 .9vh 1.8vh rgba(0,0,0,1);
+    }
+    100%{
+        transform: scale(1.1);
+        box-shadow: 0 1.1vh 2.2vh rgba(0,0,0,1);
+    }
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card h3{
+    margin: .5rem 1rem .2rem;
+    font-size: 1rem;
+    color: white;
+}
+.card p{
+    margin: 0 1rem 1rem;
+    font-size: .8rem;
+    color: #ccc;
+}

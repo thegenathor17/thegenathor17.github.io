@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../styles/textStyles.css">
     <link rel="stylesheet" href="../styles/margins.css">
     <link rel="stylesheet" href="../styles/imgs.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="icon" href="../../public/Logo.png">
     <title>Hello There!</title>
 </head>
 <body>
@@ -14,13 +16,45 @@
             <a href="hub.html" class="title" id="title">A little blog about a teenager learning to code :D</a>
         </header>
         <aside class="sidebar">
-            <h1 class="sidebarTitle">More about me!</h1>
-            <table>
-                <th>
-                    <tr><a class="sidebarLink" href="aboutme.html">-About me</a> <br></tr>
-                    <tr><a class="sidebarLink" href="helloThere.html">-Hello there!</a> <br></tr>
-                </th>
-            </table>
+            <div class="sidebarSection">
+                <h1 class="sidebarTitle">More about me!</h1>
+                <table>
+                    <th>
+                        <tr><a class="sidebarLink" href="aboutme.html">-About me</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="../Projects/tetris.html" class="sidebarLink">-Tetris</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                    </th>
+                </table>
+            </div>
+            <div class="sidebarSection">
+                <h1 class="sidebarTitle">
+                    Other stuff :D
+                </h1>
+                <table>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="gamesHub()">Built-in games</button>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="projectsHub()">Projects</button>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="inCGamesHub()">InCGames</button>
+                        </tr>
+                    </th>
+                </table>
+            </div>
         </aside>
         <main class="content">
             <div class="articleBody">
@@ -29,7 +63,7 @@
                 <p class="text">
                     Hello there! I'm pretty sure you have some questions about this site so let me introduce you to this piece of my brain :D
                 </p>
-                <p class="subtitle">Actuality</p>
+                <p class="subtitle">Today</p>
                 <p class="text">
                     Well, as you can tell, I am not a web designer or something, I just had a really cool idea about this. A little blog about a teenager learning to code is a new project of mine, I wanna document all my journey to become a embedded systems engineer, I'll use some slang to make it casual, and yeah, it will be updated rarely, yk, it is not my main project.
                 </p>
@@ -61,4 +95,15 @@
         </main>
     </div>
 </body>
+<script>
+    function gamesHub(){
+        window.location.href = "./Built-in Games/gamesHub.html"
+    }
+    function projectsHub(){
+        window.location.href = "./Projects/projectsHub.html"
+    }
+    function inCGamesHub(){
+        window.location.href = "./InCGames/inCGamesHub.html"
+    }
+</script>
 </html>

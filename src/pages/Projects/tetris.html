@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/margins.css">
+    <link rel="stylesheet" href="../../styles/textStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/imgs.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="layout">
+        <header class="upbar">
+            <a href="../pages/hub.html" class="title" id="title">A little blog about a teenager learning to code :D    </a>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebarSection">
+                <h1 class="sidebarTitle">More about me!</h1>
+                <table>
+                    <th>
+                        <tr><a class="sidebarLink" href="../aboutme.html">-About me</a><br></tr>
+                        <tr><a href="../hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="tetris.html" class="sidebarLink">-Tetris</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                        <tr><a href="hellothere.html" class="sidebarLink">-Hello there!</a><br></tr>
+                    </th>
+                </table>
+            </div>
+            <div class="sidebarSection">
+                <h1 class="sidebarTitle">
+                    Other stuff :D
+                </h1>
+                <table>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="gamesHub()">Built-in games</button>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="projectsHub()">Projects</button>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr>
+                            <button class="hubButton" onclick="inCGamesHub()">InCGames</button>
+                        </tr>
+                    </th>
+                </table>
+            </div>
+        </aside>
+        <main class="content">
+            <div class="articleBody">
+                <p class="articleTitle">
+                    Tetris
+                </p>
+                <p class="credits">by Nahum :D</p>
+                <p class="text">
+                    Well, I think a game like this doesn't need any introduction, Tetris itself is kinda popular, at least 2 people had bought it along since Alexey Pajitnov realeased it. The intention is to make a tetris-like game only using JavaScript, HTML and CSS. It's a simple project that won't take much longer than a few hours.
+                </p>
+                <p class="subtitle">
+                    Plan
+                </p>
+                <p class="text">
+                    Firstly, I'm gonna make a set up, a new folder for it, the logo and rework the sidebar so the people can access to it, once it's done I will start with HTML making the basic structure that will be only a basic premade structure I usually use for articles like this but adding some modifications.
+                </p>
+                <p class="text">
+                    Secondly, I will start scripting all the basic logic for the game, it's important to code the basic mesh where the game will take place, all the input reading and basic pieces (using some 2d arrays to store all the data the game will need).
+                </p>
+                <p class="text">
+                    Thirdly, I'ma do all the CSS needed for this, it won't be much so I expect it to be a short phase.
+                </p>
+                <p class="subtitle">
+                    Making of
+                </p>
+                <img id="tetrisPortrait" src="../../../public/tetris.png" alt="Tetris">
+                <p class="text">
+                    I started making the portrait with paint (I know, it's beautiful), it was kinda easy and doesn't need any explaniation
+                </p>
+                <p class="date">
+                    Nahum, 06/29/25, still in progress, I'm just tired
+                </p>
+            </div>
+        </main>
+    </div>
+</body>
+<script>
+    function gamesHub(){
+        window.location.href = "../Built-in Games/gamesHub.html"
+    }
+    function projectsHub(){
+        window.location.href = "./projectsHub.html"
+    }
+    function inCGamesHub(){
+        window.location.href = "../inCGames/inCGamesHub.html"
+    }
+</script>
+</html>
