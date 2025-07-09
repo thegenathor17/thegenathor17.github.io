@@ -9,11 +9,6 @@ html{
 .sidebarTitle{
     font-size: 2.5vh;
 }
-.sidebarLink{
-    font-size: 2.3vh;
-    color: #7aa2f7;
-    margin-left: 1vh;
-}
 /*Articles*/
 .articleTitle{
     font-size: 4vh;

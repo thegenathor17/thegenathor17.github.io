@@ -1,18 +1,22 @@
-body, html{
+body,
+html {
     margin: 0px;
     height: 100%;
+    background-color: #1e1e2f;
 }
-.layout{
+
+.layout {
     display: grid;
-    grid-template-areas: 
-    "sidebar upbar"
-    "sidebar content";
+    grid-template-areas:
+        "sidebar upbar"
+        "sidebar content";
     grid-template-columns: 200px 1fr;
     grid-template-rows: 60px 1fr;
     height: 100vh;
 }
+
 /*Up bar*/
-.upbar{
+.upbar {
     grid-area: upbar;
     background: #15151f;
     color: white;
@@ -25,11 +29,13 @@ body, html{
     position: fixed;
     z-index: 1000;
 }
-#title{
+
+#title {
     margin-left: 7.5vh;
 }
+
 /*Side bar*/
-.sidebar{
+.sidebar {
     grid-area: sidebar;
     background: #15151f;
     color: white;
@@ -40,12 +46,20 @@ body, html{
     position: fixed;
     z-index: 1000;
 }
-.sidebarSections{
+
+.sidebarSections {
     border-bottom: 1px #000;
     padding-bottom: .5rem;
 }
+
+.sidebar a {
+    font-size: 2.3vh;
+    color: #7aa2f7;
+    margin-left: 1vh;
+}
+
 /*Content*/
-.content{
+.content {
     grid-area: content;
     background-color: #1e1e2f;
     display: flex;
@@ -53,10 +67,11 @@ body, html{
     align-items: center;
     padding: 2rem;
 }
-.articleBody{
+
+.articleBody {
     width: 150vh;
     height: auto;
-    background-color: #2a2a3d ;
+    background-color: #2a2a3d;
     padding: 0 2.5rem;
     border-radius: 2vh;
     border-color: #000;

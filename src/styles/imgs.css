@@ -1,26 +1,41 @@
-#upbarExample{
+#upbarExample {
     width: 100vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2vh;
 }
-#sidebarExample{
+
+#sidebarExample {
     height: 65vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2vh;
 }
-#profilePhoto{
+
+#profilePhoto {
     display: block;
     border-radius: 2vh;
 }
-#tetrisPortrait{
+
+#tetrisPortrait {
     width: 35%;
     height: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2vh;
+}
+
+#sidebarExample {
+    height: 50vh;
+}
+
+#hubExample {
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vh;
+    display: block;
 }
