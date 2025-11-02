@@ -8,5 +8,5 @@
 
 ## Reporting a Vulnerability
 
-Email me at nahumnaranjo@outlook.com and describe exactly what the vulnerability is
-(don't expect money or something, I'm poorer than you)
+Just fill the issue template for this case
+(don't expect money or something, I'm poorer than you
